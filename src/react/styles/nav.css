@@ -1,0 +1,23 @@
+.navbar {
+    color: black;
+    border: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    height: 63px;
+    z-index: 1000;
+    padding: 0 138px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 41px;
+    }
+}
+
+.navbar a {
+    color: black;
+    letter-spacing: 1pt;
+    font-size: 9pt;
+    text-transform: uppercase;
+    line-height: 30px !important;
+}

@@ -1,0 +1,40 @@
+.footer {
+    min-height: 310.5px;
+    background-color: white;
+    color: black;
+    letter-spacing: 1px;
+    padding-bottom: 34px;
+    padding-top: 68px
+}
+
+.link {
+    margin-top: 68px;
+}
+
+.icon {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.icons{
+    float: left;
+}
+
+.logos {
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+
+.logo {
+    float: right;
+    height: 75px;
+    margin-top: -62px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        float: left;
+        height: 75px;
+        margin-top: 30px
+    }
+}

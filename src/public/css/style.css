@@ -1,0 +1,151 @@
+body {
+    background-color: #FDFDFA;
+    font-size: 15px;
+    font-family: "Din Regular", sans-serif;
+}
+
+.page{
+    padding-left: 138px;
+    padding-right: 138px;
+}
+
+@media (max-width: 768px) {
+    .page {
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+}
+
+.footer{
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+.navbar-brand {
+    height: 63px;
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 63px;
+}
+
+.section {
+    margin-bottom: 90.5px;
+}
+
+input:active, input:focus {
+    outline: none !important;
+}
+
+a {
+    color: black
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+button {
+    padding: 2px 20px !important;
+    border: 1px solid !important;
+    border-radius: 0 !important;
+    background-color: #FFFFFF;
+}
+
+.page-heading {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.page-content {
+    margin-top: 5px;
+    font-size: 12pt;
+    margin-bottom: 20px;
+}
+
+.faculty-name {
+    font-weight: bold;
+    font-size: 60pt
+}
+
+.edit-faculty.btn {
+    bottom: 30px;
+    right: 0;
+    position: absolute;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.back-button a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.back-button-label {
+    font-size: 15px;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.back-button-label span{
+    background: linear-gradient(rgba(1,1,1,0) 66%, #F7EDBA 34%);
+}
+
+.back-button a:hover > .back-button-label span{
+    background: linear-gradient(#F7EDBA 0% , #F7EDBA 100%);
+    -webkit-transition:  2s; /* Safari */
+    transition: background  2s;
+}
+
+.back-button-holder {
+    height: 18px;
+    width: 18px;
+    background: url("/img/backbutton.png") no-repeat 2px 8px;
+    background-size: 5px 9px;
+    float: left;
+}
+
+.search-bar {
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.all-courses .search-bar {
+    margin-top: 16px;
+}
+
+.search-input {
+    border: none;
+    width: 100%;
+    border-radius: 19px;
+    height: 38px;
+    background: url("/img/search.png") no-repeat 13px 8px;
+    background-size: 22px 22px;
+    background-color: #FDFCF0;
+    color: #1D1D1D;
+    padding-left: 48px;
+}
+
+.action-button {
+    padding: 8px 18px;
+    border: solid 1px;
+    width: 237px;
+    cursor: pointer;
+}
+
+.action-button-label {
+    font-size: 15px;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.navbar li a span {
+    background-color: #FCF497;
+    padding: 5px;
+}

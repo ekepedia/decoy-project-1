@@ -1,0 +1,95 @@
+{
+  "author": {
+    "name": "Eke Wokocha",
+    "email": "eke@mit.edu"
+  },
+  "contributors": [
+    {
+      "name": "Eke Wokocha"
+    }
+  ],
+  "name": "Wrap Pedagogy Place",
+  "description": "Internal Wrap Pedagogy Place tool for faculty",
+  "keywords": [
+    "wrap"
+  ],
+  "version": "0.0.0",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.36",
+    "async": "^1.5.2",
+    "aws-sdk": "^2.55.0",
+    "axios": "^0.17.1",
+    "bcrypt": "^1.0.2",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cookies": "^0.6.2",
+    "css-loader": "^0.28.9",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-form-data": "^2.0.0",
+    "express-formidable": "^1.0.0",
+    "express-session": "^1.15.3",
+    "flux": "^3.1.3",
+    "history": "^4.7.2",
+    "image-size": "^0.5.4",
+    "jsonfile": "^2.4.0",
+    "jsonwebtoken": "^8.2.0",
+    "knex": "^0.14.4",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "mongoose": "^4.7.8",
+    "mongoose-simpledb": "^5.1.0",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "node-random-name": "^1.0.1",
+    "node.extend": "1.1.6",
+    "nodemailer": "^4.0.1",
+    "npm": "3.8.5",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
+    "query-string": "^5.0.1",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-select": "^1.2.1",
+    "rets-client": "^5.0.2",
+    "sequelize": "^3.29.0",
+    "socksjs": "^0.5.0",
+    "store": "^2.0.12",
+    "style-loader": "^0.19.1",
+    "sweetalert": "^2.1.0",
+    "underscore": "^1.8.3",
+    "url": "^0.11.0",
+    "uuid": "^3.2.1"
+  },
+  "main": "./src/server.js",
+  "engines": {
+    "node": "9"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "build": "webpack"
+  },
+  "license": "MIT",
+  "readme": "See README file",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "http-server": "^0.9.0",
+    "jest": "^23.1.0",
+    "webpack": "^1.15.0"
+  }
+}

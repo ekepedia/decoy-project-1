@@ -1,0 +1,24 @@
+.hero {
+    min-height: 658px;
+    padding-left: 138px;
+    padding-right: 138px;
+    margin-left: -138px;
+    width: 100vw;
+    background: url(/img/hero.png) center no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        margin-left: -41px;
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+}

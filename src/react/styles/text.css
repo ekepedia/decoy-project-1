@@ -1,0 +1,78 @@
+.title, .headerTitle, .findAgentsTitle {
+    font-family: "Gothman Bold", sans-serif;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+.findAgentsTitle {
+    font-family: "Gothman Book", sans-serif;
+}
+
+.findAgentsName , .findAgentsRank{
+    font-family: 'Gothman Book', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.findAgentsRank {
+    font-family: 'Gothman Bold', sans-serif;
+}
+
+.rankText , .rankTextBold{
+    font-family: 'Gothman Book', sans-serif;
+    font-size: 9pt;
+    letter-spacing: 0.5px;
+}
+
+.rankTextBold {
+    font-family: 'Gothman Bold', sans-serif;
+}
+
+.headerTitle {
+    margin-top: 57px;
+    margin-bottom: 11.5px;
+    color: #2a475d;
+    letter-spacing: 1px;
+}
+
+.subTitle {
+    font-family: "Gothman Book Italic", sans-serif;
+    font-size: 27pt;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.caption {
+    font-size: 10.5pt;
+    text-transform: uppercase;
+    font-family: "Gothman Bold", sans-serif;
+}
+
+.heroText {
+    font-size: 36pt;
+    text-transform: uppercase;
+    font-family: "Gothman Bold", sans-serif;
+    hyphens: auto;
+}
+
+.faqTitle {
+    font-family: "Gothman Book Italic", sans-serif;
+    font-size: 18pt;
+    margin-top: 30px;
+}
+
+.footerText {
+    font-family: 'Gothman Book', sans-serif;
+    font-size: 9pt;
+    color: black;
+    margin-bottom: 7.5px;
+    text-transform: uppercase;
+}
+
+.footerSubText {
+    font-family: 'Gothman Book', sans-serif;
+    font-size: 12pt;
+    color: white;
+}

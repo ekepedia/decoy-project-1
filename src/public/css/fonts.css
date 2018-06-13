@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Din Regular";
+    src: url(/fonts/DINPro.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Din Light";
+    src: url(/fonts/DINPro-Light.otf) format("truetype");
+}

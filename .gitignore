@@ -1,0 +1,10 @@
+/node_modules
+/public/js/admin
+/public/pages/admin
+/routes/admin.js
+/uploads
+/scss
+
+.env
+.idea/
+.DS_Store

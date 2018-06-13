@@ -1,0 +1,135 @@
+.course-number {
+    font-size: 80px;
+    font-weight: 300;
+    font-family: "Roboto Mono", monospace;
+    background: linear-gradient(rgba(1,1,1,0) 50%, #97FCF9 50%);
+    padding: 0 5px;
+}
+
+.course-header {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 40px;
+}
+
+.course-name {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto Mono", monospace;
+}
+
+.course-units {
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    bottom: 0;
+    position: absolute;
+}
+
+.edit-course.btn {
+    bottom: 30px;
+    position: absolute;
+}
+
+.edit-course-title,
+.new-course-title,
+.courses-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto Mono", monospace;
+}
+
+.feature-course-link a,
+.course-link a,
+.my-course-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.feature-course-link a:hover,
+.course-link a:hover,
+.my-course-link a:hover{
+    text-decoration: none;
+}
+
+.feature-course-link .course-link-number,
+.my-course-link .course-link-number{
+    font-size: 34px;
+    margin-right: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    background: linear-gradient(rgba(1,1,1,0) 50%, #97FCF9 50%);
+    padding: 0 5px;
+
+    -webkit-transition: 2s; /* Safari */
+    transition: background 2s;
+}
+
+.my-course-link .course-link-number {
+    background: linear-gradient(rgba(1,1,1,0) 50%, #FCF497 50%);
+}
+
+.course-link-number-holder {
+    margin-bottom: 20px;
+}
+
+.feature-course-link a:hover > div > .course-link-number {
+    background: linear-gradient(#97FCF9 0% , #97FCF9 100%);
+    -webkit-transition:  2s; /* Safari */
+    transition: background  2s;
+}
+
+
+.my-course-link a:hover > div > .course-link-number {
+    background: linear-gradient(#FCF497 0% , #FCF497 100%);
+    -webkit-transition:  2s; /* Safari */
+    transition: background  2s;
+}
+
+.feature-course-link .course-link-name,
+.my-course-link .course-link-name{
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: "Din Regular", sans-serif;
+}
+
+.course-link .course-link-number {
+    font-size: 15px;
+    margin-right: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    background: #FDFCF0;
+    width: 70px;
+    padding: 0 5px;
+}
+
+.course-link a:hover > div > .course-link-number {
+    background: linear-gradient(#97FCF9 0% , #97FCF9 100%);
+    -webkit-transition:  2s; /* Safari */
+    transition: background  2s;
+}
+
+.course-link .course-link-name {
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: "Din Regular", sans-serif;
+}
+
+.course-link {
+    height: 85px;
+    overflow: hidden;
+}
+
+.feature-course-link {
+    height: 110px;
+    overflow: hidden;
+}
+
+.course-description {
+    max-height: 110px;
+    overflow: hidden;
+}

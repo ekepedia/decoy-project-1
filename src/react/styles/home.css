@@ -1,0 +1,112 @@
+.welcomeImg {
+    height: 128.5px;
+    width: 128.5px;
+}
+
+.hero, .agents  {
+    min-height: 658px;
+    padding-left: 138px;
+    padding-right: 138px;
+    margin-left: -138px;
+    width: 100vw;
+    background: url(/img/hero.png) center no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.agents {
+    background: url("/img/heroes/find agents.png") center no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.welcome {
+    min-height: 684.5px;
+}
+
+.icons {
+    text-align: center;
+    width: 100%;
+}
+
+.icon {
+    display: inline-block;
+    width: 173px;
+    margin-top: 30px;
+}
+
+.iconHolder {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.welcomeText {
+    margin-top: 57px;
+    text-align: center;
+    padding-bottom: 57px;
+}
+
+.findAgents {
+    background-color: #27ACCA;
+    width: 155px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 12pt;
+}
+
+.submitBtn, .advancedBtn {
+    float: right;
+    width: 125px;
+    height: 37px;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: "Gothman Bold", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #27ACCA;
+    background-color: white;
+    margin-top: 12.5px;
+}
+
+.advancedBtn {
+    width: 150px;
+    margin-right: 15px;
+    color: white;
+    background-color: #27ACCA;
+}
+
+.dropDown {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    height: 37px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right 10px center;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-image: url("/img/down arrow.png");
+    background-color: white;
+    padding: .5em;
+    padding-right: 1.5em;
+    margin-top: -10px;
+}
+
+@media (max-width: 1200px) {
+    .hero, .agents {
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero, .agents {
+        margin-left: -41px;
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+}
